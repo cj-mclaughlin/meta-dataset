@@ -1,6 +1,6 @@
 import meta_dataset.data.config
 import meta_dataset.data.decoder
-include 'meta_dataset/learn/gin/setups/data_config_common.gin'
+include '/content/meta-dataset/meta_dataset/learn/gin/setups/data_config_common.gin'
 
 # If we decode features then change the lines below to use FeatureDecoder.
 process_dumped_episode.support_decoder = @support/ImageDecoder()
